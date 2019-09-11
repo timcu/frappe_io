@@ -14,10 +14,10 @@ To add a new task handler, go to `hooks.py` and add a new handler. Default handl
 		],
 		"cron": {
 			"0/10 * * * *": [
-				"library_management.task.run_every_ten_mins"
+				"library_management.tasks.every_ten_mins"
 			],
 			"15 18 * * *": [
-				"library_management.task.every_day_at_18_15"
+				"library_management.tasks.every_day_at_18_15"
 			]
 		}
 			
